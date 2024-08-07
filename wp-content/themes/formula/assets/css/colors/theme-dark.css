@@ -1,0 +1,139 @@
+/* :root {
+    --thm-primary: #d82148;
+} */
+
+/******** Common ********/
+body.theme-dark .section-header .section-title {
+	color: var(--thm-light);
+}
+
+/******** Menu ********/
+body.theme-dark .header .menu>li>.sub-menu, body.theme-dark .header .menu>li>.sub-menu>li>.sub-menu {
+	background-color: var(--thm-black);
+}
+
+body.theme-dark .header .menu>li>ul.sub-menu>li>a, body.theme-dark .menu-modal .menu>li>.sub-menu>li>.ancestor-wrapper>a, body.theme-dark .header .menu>li>ul.sub-menu>li>.sub-menu>li>a, body.theme-dark .menu-modal .menu>li>ul.sub-menu>li>.sub-menu>li>.ancestor-wrapper>a {
+	color: var(--thm-gray);
+}
+
+/*-- Mobile Menu --*/
+@media only screen and (max-width: 992px) {
+	body.theme-dark .menu-modal.navbar {
+		background-color: var(--thm-black);
+	}
+	body.theme-dark .menu-modal-inner {
+		background-color: var(--thm-black);
+	}
+	body.theme-dark .menu-modal.navbar .menu>li a {
+		color: var(--thm-light);
+	}
+	body.theme-dark .menu-modal.navbar .menu>li {
+		border:none;
+	}
+	body.theme-dark .menu-modal.navbar .menu>li>.sub-menu>li>.ancestor-wrapper>a {
+		border:none;
+	}
+}
+
+/******** Portfolio ********/
+body.theme-dark .portfolio {
+	background-color: #000000;
+}
+
+/******** Service ********/
+body.theme-dark .service {
+	background-color: var(--thm-black);
+}
+
+/******** Team ********/
+body.theme-dark .team {
+	background-color: #000000;
+}
+
+/******** Testimonial ********/
+body.theme-dark .testimonial {
+	background-color: var(--thm-black);
+}
+body.theme-dark .testimonial .review {
+	background-color: #000;
+}
+body.theme-dark .testimonial .review .wt-title {
+	color: var(--thm-light);
+}
+body.theme-dark .testimonial .owl-carousel .owl-prev, body.theme-dark .testimonial .owl-carousel .owl-next {
+	background-color: #000;
+}
+
+/******** Funfact ********/
+body.theme-dark .funfact {
+	background-color: #000000;
+}
+body.theme-dark .funfact-inner {
+	background-color: var(--thm-black);
+}
+
+/******** Blog ********/
+body.theme-dark .portal-news.blog {
+	background-color: var(--thm-black);
+}
+
+body.theme-dark .portal-news.blog::after {
+	background-color:#000000;
+}
+body.theme-dark .portal-news.blog .blog-head {
+	background-color: #00000052;
+}
+
+body.theme-dark .portal-news.blog .full-content {
+	background-color: var(--thm-black);
+}
+
+/******** Sponsors ********/
+body.theme-dark .sponsors {
+	background-color:#000000;
+}
+
+/******** Footer ********/
+body.theme-dark .footer {
+	background-color: var(--thm-black);
+}
+
+/*******PAGES********/
+/*******About********/
+body.theme-dark #section.about {
+	background-color: var(--thm-black);
+}
+/*******Blog Grid********/
+body.theme-dark #section.blog-grid {
+	background-color: #000;
+}
+/*******Blog With Sidebars & Full Width ********/
+body.theme-dark #section.blog-grid {
+	background-color: #000;
+}
+body.theme-dark #section.site-content {
+	background-color: #000;
+}
+body.theme-dark #section.site-content .sidebar .widget {
+	background-color: var(--thm-black);
+}
+body.theme-dark #section.site-content .blog .full-content {
+	background-color: #000;
+}
+body.theme-dark #section.site-content .blog .post .entry-header .entry-title a {
+	color: var(--thm-light);
+}
+
+/*******Conatact********/
+body.theme-dark #section.contact {
+	background-color: var(--thm-black);
+}
+body.theme-dark #section.contact .about-social-icons a {
+	background-color: #000;
+}
+body.theme-dark #section.contact .contact-location {
+	background-color: #000000;
+}
+body.theme-dark #section.contact .contact-location .location-title {
+	color: var(--thm-light);
+}
